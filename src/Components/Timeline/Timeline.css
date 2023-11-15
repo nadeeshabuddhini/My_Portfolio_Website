@@ -1,0 +1,113 @@
+.timeline{
+    padding: 16px 26px !important;
+}
+.timeline .MuiTimelineItem-root{
+    min-height: 0px;
+}
+.timeline .timeline_header{
+    min-height: 60px !important;
+}
+.timeline .timeline_header .MuiSvgIcon-root{
+    font-size: 20px;
+}
+.timeline .MuiTimelineItem-missingOppositeContent::before{
+    display:none;
+}
+.timeline .timeline_header_dot{
+    background-color: var(--theme-color)!important;
+    margin: 0 !important;
+}
+.timeline .MuiTimelineConnector-root{
+    background-color: var(--theme-color)!important;
+    height: 20px;
+}
+.timeline .MuiTimelineItem-root:last-child .MuiTimelineConnector-root{
+    display: none !important;
+}
+.timeline .timeline_content{
+ padding-top: 7px;
+}
+.timeline .timeline_dot{
+    border-color: var(--theme-color) !important;
+    margin: 4px 0 !important;
+}
+.timeline .seperator{
+    padding-left: 10px !important;
+}
+.timeline .timeline_text{
+    font-size: 14px;
+    color: var(--font-color);
+}
+.timeline .timeline_email{
+    word-break:break-all;
+}
+.timeline .timeline_title{
+    color: black ;
+}
+.timeline .MuiTypography-root{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+/*default timeline style*/
+.timeline .timeline_card{
+    border: 2px solid var(--font-color);
+    margin-bottom: 40px;
+}
+.timeline .timeline_cardcontent{
+    display: flex;
+}
+.timeline .timeline_subcontent{
+    margin-left: 10px;
+}
+.timeline .timeline_cardheader{
+    margin-left: 20px;
+}
+.timeline .timeline_cardheadtext1{
+    font-weight: bold;
+    color: var(--font-color);
+}
+.timeline .timeline_cardheadtext2{
+    font-weight: bold;
+}
+.timeline .timeline_cardtext1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.timeline .timeline_cardtext2{
+    font-size: 18px;
+}
+.timeline .timeline_list{
+    display: flex;
+}
+.timeline .timeline_listitem{
+    width: unset;
+    padding-top: unset;
+}
+.timeline .timeline_listitemicon{
+    min-width: 32px;
+}
+.timeline .timeline_iconstar{
+    color:var(--theme-color);
+}
+/*media queries*/
+@media(max-width:991px){
+   .def_timeline{
+    padding: unset !important;
+   }
+   .def_timeline .timeline_subcontent{
+    margin-left: unset;
+   }
+   .def_timeline .timeline_cardcontent{
+    display: block;
+   }
+   .def_timeline .timeline_list{
+    display: block;
+   }
+   .def_timeline .timeline_cardheader{
+    text-align: center;
+   }
+   .def_timeline .timeline_logoimg{
+    display: flex;
+    justify-content: center;
+   }
+}

@@ -1,0 +1,56 @@
+.contact_header{
+    align-items: center;
+    justify-content: center;
+}
+.contact_header .contact_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.contact_header .contact_intro{
+    font-size: 20px;
+    color: var(--font-color);
+    margin-top: 10px;
+    text-align: center;
+}
+.contact_body {
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.contact_body .contact_card{
+    border: 1px solid var(--theme-color);
+    box-shadow:var(--theme-color) 0px 4px 24px !important;
+    padding: 40px 60px;
+}
+.contact_body .contact_cardcontent{
+    display: flex;
+}
+.contact_body .contact_cardheader{
+    font-weight: bold;
+    color: var(--font-color);
+    margin-top: 12px;
+}
+.contact_body .contact_cardheadimg{
+    margin-left: 10px;
+}
+.contact_body .contact_textfield{
+    margin-bottom: 20px;
+}
+.contact_body .contact_textfield .MuiInputLabel-root.Mui-focused{
+    color: var(--theme-color);
+}
+.contact_body .contact_textfield .Mui-focused fieldset{
+    border: 1px solid var(--theme-color);
+}
+
+/*media queries*/
+@media(max-width:991px){
+    .contact_body{
+        margin-top: 30px;
+    }
+    .contact_body .contact_card{
+        padding: unset;
+    }
+}

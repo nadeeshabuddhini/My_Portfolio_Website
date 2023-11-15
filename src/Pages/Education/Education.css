@@ -1,0 +1,16 @@
+.education_header{
+    align-items: center;
+    justify-content: center;
+}
+.education_header .education_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.education_header .education_intro{
+    font-size: 20px;
+    color: var(--font-color);
+    margin-top: 10px;
+    text-align: center;
+}

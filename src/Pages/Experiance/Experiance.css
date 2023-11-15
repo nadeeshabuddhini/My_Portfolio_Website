@@ -1,0 +1,16 @@
+.experiance_header{
+    align-items: center;
+    justify-content: center;
+}
+.experiance_header .experiance_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.experiance_header .experiance_intro{
+    font-size: 20px;
+    color: var(--font-color);
+    margin-top: 10px;
+    text-align: center;
+}

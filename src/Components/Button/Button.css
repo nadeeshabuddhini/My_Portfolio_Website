@@ -1,0 +1,22 @@
+.btn_wrapper{
+background-color: var(--theme-color) !important;
+border-radius: 50px !important;
+padding: 5px 12px !important;
+}
+.btn_wrapper .icon_wrapper{
+color: #000;
+background: #fff;
+border-radius: 50px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 27px;
+height: 27px;
+}
+.btn_wrapper .btn_text{
+color:#fff;
+text-align: center;
+text-transform: none;
+width: 100%;
+}
